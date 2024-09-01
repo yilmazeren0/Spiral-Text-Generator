@@ -1,4 +1,6 @@
 # Spiral-Text-Generator
 Just simple algorithm that takes a text input and convert it to spiral form.
 
-![Alt text](/textPart.png?raw=true "Optional Title")
+![enter the text part](/textPart.png?raw=true "")
+![spiral version of text](/spiral.png?raw=true "")
+
