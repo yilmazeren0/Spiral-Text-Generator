@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text To Spiral Text</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Spiral Text Generator</h1>
+        <textarea id="textInput" rows="6" cols="50" placeholder="Enter your text here..."></textarea>
+        <br>
+        <button onclick="createSpiral()">Create Spiral</button>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMin slice" viewBox="0 0 800 600">
+
+            <path d="M0 0h800v600H0z" fill="#fff"/>
+            
+            <defs>
+                <path id="spiralPath" d="" /> <!-- spiral path will be added here with createSpiral method -->
+            </defs>
+           
+            <text font-family="monospace" font-size="16" fill="#1d1f20">
+                <textPath id="textPath" xlink:href="#spiralPath"/>
+            </text>
+        </svg>
+        
+    </div>
+    <script src = "SpiralTextGenerator.js"></script>
+
+    
+</body>
+</html>
